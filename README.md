@@ -1,6 +1,6 @@
 # Slackr
 
-A minimal and simple Slack messaging clone.
+A minimal and simple Slack messaging clone. <br />
 Hosted on Heroku: https://slackr-chat.herokuapp.com/
 
 
