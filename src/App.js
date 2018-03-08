@@ -16,7 +16,7 @@ class App extends Component {
 
   componentDidMount() {
     // console.log("componentDidMount <App />");
-    this.ws = new WebSocket("wss://enigmatic-temple-17196.herokuapp.com/");
+    this.ws = new WebSocket("wss://slackr-chat.herokuapp.com/");
 
     //when server broadcasts a message, take this message and update the App state and render the incoming message
     this.ws.onmessage = event => {
